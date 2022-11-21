@@ -347,6 +347,7 @@
 				CUSTOM_THUMB
 				#endif
 			>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		#endif
 		numbers {
@@ -470,6 +471,7 @@
 				CUSTOM_THUMB
 				#endif
 			>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 		#endif
 		numbers {

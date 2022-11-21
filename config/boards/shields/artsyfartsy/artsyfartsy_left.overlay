@@ -6,10 +6,6 @@
 
 #include <dt-bindings/zmk/matrix_transform.h>
 
-	&left_encoder {
-    status = "okay";
-	};
-
 / {
 	chosen {
 		zmk,kscan = &kscan0;
@@ -31,4 +27,9 @@
             , <&xiao_d 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
 	};
+	
+		&left_encoder {
+		status = "okay";
+		};
+
 };

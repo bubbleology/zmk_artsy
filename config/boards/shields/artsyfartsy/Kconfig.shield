@@ -1,0 +1,8 @@
+# Copyright (c) 2021 Mike "KemoNine" Crosson
+# SPDX-License-Identifier: MIT
+
+config SHIELD_ARTSYFARTSY_LEFT
+	def_bool $(shields_list_contains,artsyfartsy_left)
+
+config SHIELD_THE_ARTSYFARTSY_RIGHT
+	def_bool $(shields_list_contains,artsyfartsy_right)

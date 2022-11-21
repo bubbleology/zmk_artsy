@@ -1,0 +1,9 @@
+if SHIELD_THE_ARTSYFARTSY_LEFT || SHIELD_THE_ARTSYFARTSY_RIGHT
+
+config ZMK_KEYBOARD_NAME
+	default "artsyfartsy"
+
+config I2C
+	default y
+
+endif

@@ -12,7 +12,7 @@ jobs:
       matrix:
         include:
           - board: seeeduino_xiao_ble
-            shield: artsyfartsy_right
+            shield: artsyfartsy_left
     steps:
       - name: Checkout
         uses: actions/checkout@v2

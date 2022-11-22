@@ -566,7 +566,6 @@ left_encoder: encoder_left {
         b-gpios = <&xiao_d 1 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         resolution = <4>;
     };
-
 right_encoder: encoder_right {
         compatible = "alps,ec11";
         label = "RIGHT_ENCODER";
@@ -574,10 +573,8 @@ right_encoder: encoder_right {
         b-gpios = <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
         resolution = <4>;
     };
-
 sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&left_encoder &right_encoder>;
     };
-	
 }; 

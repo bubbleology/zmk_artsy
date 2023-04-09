@@ -28,8 +28,4 @@
             , <&xiao_d 7 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>
             ;
 	};
-	
-	&right_encoder {
-		status = "okay";
-	};
 };

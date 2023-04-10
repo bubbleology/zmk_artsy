@@ -343,9 +343,6 @@
 				MIDDLE_NONES
 				&layer_symbols_kp LAYER_ID_SYMBOLS ARDUX_BASE_E                &kp ARDUX_BASE_Y     &kp ARDUX_BASE_I     &layer_custom_kp LAYER_ID_CUSTOM ARDUX_BASE_O
 				TRAILING_NONES
-				#if defined CUSTOM_THUMB
-				CUSTOM_THUMB
-				#endif
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
@@ -467,9 +464,6 @@
 				MIDDLE_NONES
 				&layer_custom_kp LAYER_ID_CUSTOM ARDUX_BASE_O          &kp ARDUX_BASE_I     &kp ARDUX_BASE_Y   &layer_symbols_kp LAYER_ID_SYMBOLS ARDUX_BASE_E
 				TRAILING_NONES
-				#if defined CUSTOM_THUMB
-				CUSTOM_THUMB
-				#endif
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
